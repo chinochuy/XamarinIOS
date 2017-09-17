@@ -10,9 +10,9 @@ Original project is available under this link:
 [YLProgressBar](https://github.com/yannickl/YLProgressBar) 
 
 ## Download
-Xamarin.iOS: [![NuGet Badge](https://buildstats.info/nuget/YLProgressBarXamarin)](https://www.nuget.org/packages/YLProgressBarXamarin/)
+Xamarin.iOS:  [![NuGet Badge](https://buildstats.info/nuget/YLProgressBarXamarin)](https://www.nuget.org/packages/YLProgressBarXamarin/)
 
-***Usage with Xamarin.iOS***
+## Usage with Xamarin.iOS
 
 ```c#
 YLProgressBar myBar = new YLProgressBar();
