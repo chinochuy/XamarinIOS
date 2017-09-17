@@ -12,4 +12,12 @@ Original project is available under this link:
 
 ***Usage with Xamarin.iOS***
 
-
+```c#
+YLProgressBar myBar = new YLProgressBar();
+myBar.Type = YLProgressBarType.Flat;
+myBar.ProgressTintColor = UIColor.Blue;
+myBar.Progress = 20;
+myBar.HideStripes = false;
+myBar.StripesOrientation = YLProgressBarStripesOrientation.Left;
+myBar.Frame = new CoreGraphics.CGRect(0, View.Frame.Height / 2, View.Frame.Width, 30);
+```
