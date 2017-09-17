@@ -2,9 +2,8 @@
 
 <p align="center">
 <a href="http://preview.ibb.co/fC0nb5/ylprogressbar_header.png"><img alt="YLProgressBar" src="http://preview.ibb.co/fC0nb5/ylprogressbar_header.png"/></a>
+<a href="http://preview.ibb.co/c4dtik/YLProgress_Bar.gif"><img alt="YLProgressBar" src="http://preview.ibb.co/c4dtik/YLProgress_Bar.gif"/></a>
 </p>
-
-![](http://preview.ibb.co/c4dtik/YLProgress_Bar.gif)
 
 This repository contains Xamarin.iOS library binding project for YLProgressBar project created by Yannick Loriot.
 Original project is available under this link:
