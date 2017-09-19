@@ -35,7 +35,7 @@ namespace YLProgressBarXamarin
 
 		// @property (nonatomic, strong) NSArray * _Nonnull progressTintColors;
 		[Export ("progressTintColors", ArgumentSemantic.Strong)]
-        NSArray[] ProgressTintColors { get; set; }
+        UIColor[] ProgressTintColors { get; set; }
 
 		// @property (nonatomic, strong) UIColor * _Nonnull progressTintColor;
 		[Export ("progressTintColor", ArgumentSemantic.Strong)]
