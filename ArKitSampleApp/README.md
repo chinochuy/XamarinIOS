@@ -6,7 +6,9 @@
 </p>
 
 <p align="center">
-***Sample to help Xamarin developers start creating Augmented Reality apps with ARKit and Xamarin.***
+<b>
+Sample to help Xamarin developers start creating Augmented Reality apps with ARKit and Xamarin
+<b/>
 </p>
 
 <p align="center">
