@@ -11,8 +11,8 @@ namespace ArKitSampleApp.ArKitRelated.Delegates
 
         public override void CameraDidChangeTrackingState(ARSession session, ARCamera camera)
         {
-            var state = "";
-            var reason = "";
+            var state = string.Empty;
+            var reason = string.Empty;
 
             switch (camera.TrackingState)
             {

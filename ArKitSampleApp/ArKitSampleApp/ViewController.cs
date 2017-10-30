@@ -1,9 +1,6 @@
 ﻿using System;
 using ARKit;
 using ArKitSampleApp.ArKitRelated;
-using CoreGraphics;
-using Foundation;
-using SceneKit;
 using UIKit;
 
 namespace ArKitSampleApp

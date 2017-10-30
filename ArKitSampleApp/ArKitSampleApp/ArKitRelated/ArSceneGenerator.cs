@@ -1,10 +1,7 @@
 ﻿using System;
 using ARKit;
 using SceneKit;
-using UIKit;
 using ArKitSampleApp.ArKitRelated.Delegates;
-using Foundation;
-using CoreGraphics;
 
 namespace ArKitSampleApp.ArKitRelated
 {
@@ -12,8 +9,6 @@ namespace ArKitSampleApp.ArKitRelated
     {
         public void GenerateArScene(ARSCNView sceneView)
         {
-            sceneView.Delegate = new ArSCNViewDelegate();
-
             var scene = SCNScene.FromFile("art.scnassets/ship");
 
             sceneView.Scene = scene;

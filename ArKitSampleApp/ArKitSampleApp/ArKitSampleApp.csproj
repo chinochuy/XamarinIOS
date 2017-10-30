@@ -108,7 +108,6 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="ArKitRelated\ArSceneGenerator.cs" />
-    <Compile Include="ArKitRelated\Delegates\ArSCNViewDelegate.cs" />
     <Compile Include="ArKitRelated\Delegates\ArSessionDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
