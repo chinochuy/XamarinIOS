@@ -7,4 +7,4 @@
 
 This repository contains sample to help Xamarin developers start creating Augmented Reality apps with ARKit and Xamarin.
 
-![](https://media.giphy.com/media/l378Aarb8kkSzj38I/giphy.gif)
+![](https://thumbs.gfycat.com/QueasyLoathsomeCaecilian-size_restricted.gif)
