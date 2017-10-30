@@ -3,6 +3,10 @@ using ARKit;
 
 namespace ArKitSampleApp.ArKitRelated.Delegates
 {
+    // This delegate provides information about current AR session state.
+    // If object is displayed properly in front of camera state will be changed to Normal
+    // Sometimes it is not possible to display AR object properly and then state wil be changed to: InsufficientFeatures
+    // You can read more about ARTrackingState enum here: https://developer.apple.com/documentation/arkit/artrackingstate?language=objc
     public class ArSessionDelegate : ARSessionDelegate
     {
         public ArSessionDelegate()

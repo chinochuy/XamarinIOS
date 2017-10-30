@@ -21,13 +21,18 @@ namespace ArKitSampleApp
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            // Here we create new ArSceneGenerator object:
             _aRSceneGenerator = new ArSceneGenerator();
+            // Then we need to setup new scene:
             _aRSceneGenerator.GenerateArScene(SceneView);
         }
 
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+
+            // Before view is displayed we want to place AR object in the current scene:
             _aRSceneGenerator.PositionSceneObject(SceneView);
         }
 
@@ -35,6 +40,8 @@ namespace ArKitSampleApp
         public override void ViewWillDisappear(bool animated)
         {
             base.ViewWillDisappear(animated);
+
+            // Once view is not visible to user, pause current AR session:
             SceneView.Session.Pause();
         }
 
